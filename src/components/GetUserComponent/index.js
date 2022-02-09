@@ -1,7 +1,7 @@
 import { useState } from "react/cjs/react.development"
 
 export const GetUserComponent =({setIsLoggedIn,setUser}) => {
-    const [userInput, setUserInput]=useState()
+    const [userInput, setUserInput]=useState("")
 
 
     const handleLoggin = (user) =>{
